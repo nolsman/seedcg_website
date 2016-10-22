@@ -1,0 +1,482 @@
+﻿/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  background-color: #ebebeb;
+  background-size: cover;
+  background-attachment:fixed; 
+  background-position:center;
+  background-repeat: no-repeat;
+
+}
+
+.lead-content {
+  font-size: 64px; 
+  color:#ffffff; 
+  margin-top: 17%;
+  letter-spacing: 0.01em;
+  font-weight:lighter; 
+  font-family:Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif; 
+  font-style:normal;
+  text-align: center;
+} 
+
+.sub-lead-content {
+  line-height:95%; 
+  font-size: 24px; 
+  font-weight:lighter; 
+  letter-spacing: 0.05em;
+}
+
+.other-headers {
+  margin-top: 7%;
+  margin-bottom: 5%; 
+  font-family: Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;  
+  font-weight:normal; 
+  text-align: center;
+  font-size: 50px;
+}
+
+.other-sub-headers {
+  font-family: 'Lato', Helvetica Neue, Helvetica,Arial,Lucida Grande,sans-serif; 
+  font-weight:normal;
+  font-size: 24px; 
+  letter-spacing: 1pt; 
+  text-align: justify;
+  color: #3a3a3a; 
+  position:relative; 
+  z-index:7; 
+  line-height: 150%;
+  margin-top: 0;
+}
+
+.wwd-header{
+  margin-top: 10%;
+  margin-bottom: 8%; 
+  font-family: Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;  
+  font-weight:normal; 
+  text-align: center;
+  font-size: 59px;
+}
+
+.what-we-do-sub-text{
+  color:#fff; 
+  font-size:25px; 
+  font-family:'Roboto', sans-serif; 
+  font-weight:normal;
+}
+
+.wwd-img {
+  height: 100;
+  width: 100;
+}
+
+.case-studies-headers{
+  font-family:'Roboto', sans-serif;
+  font-size:35px; 
+  color:#ffffff; 
+  margin-bottom: 5%; 
+  margin-top: 7%;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.case-studies-content{
+  margin-top: 0; 
+  text-align:justify; 
+  font-family:'Roboto', sans-serif;
+  font-size:24px; 
+  color:#fff; 
+  letter-spacing:0.05em;
+  font-weight: lighter; 
+}
+
+.col-sm-10 .col-sm-12 .col-xs-12 .col-xs-10{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.img-cs2 {
+  width: 150;
+  height: auto;
+}
+
+.our-partners-header{
+  font-family:'Roboto', sans-serif;
+  font-size:60px; 
+  color:#222222; 
+  margin-bottom: 10%; 
+  font-weight:normal;
+  text-align:center;
+}
+.nav-bar-img {
+  width: auto;
+  height: 50;
+}
+
+.add-padx{
+  padding-right: 80px;
+}
+
+
+li
+{
+    list-style-type: none;
+}
+
+
+p {
+
+  font-size: 44px; 
+  font-family:Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif; 
+  color:#fff; 
+  text-align: center;
+}
+
+
+.btn, .btn-md, .btn-primary{
+  margin-top: 0%;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+
+.container-fluid > p {
+    font-size: 24px;
+    line-height: 90%;
+      font-family:Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif; 
+
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.pagewrap {
+    background-color: rgba(214, 245, 2455, 0.2);
+    padding-bottom: 2%;
+    padding-top: 2%
+}
+
+.pagewrap > p{
+  font-family: sans-serif;;
+  font-size: 34px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  top: 30%;
+  text-align: center
+}
+
+.carousel-caption h1{
+  font-size: 70px;
+  top: 0;
+  text-align: center;
+}
+
+.carousel-caption p{
+  font-size: 28px;
+  text-align: center;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  top: -20%;
+  background-size: cover;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.fill {
+  width:100%;
+  height:100%;
+  background-position:center;
+  background-size:cover;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 769px) {
+
+.lead-content {
+  font-size: 45px; 
+  color:#ffffff; 
+  margin-top: 35%;
+  letter-spacing: 0.10em
+} 
+
+.sub-lead-content {
+  line-height:110%; 
+  font-size: 20px; 
+  font-weight:lighter; 
+  color:#ffffff;
+  letter-spacing: 0.10em;
+  visibility: hidden;
+}
+
+.other-headers {
+  margin-top: 10%;
+  margin-bottom: 10%; 
+  font-family: Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;  
+  font-weight:normal; 
+  text-align: center;
+  font-size: 34px;
+}
+
+.other-sub-headers {
+  font-family: 'Lato', Helvetica Neue, Helvetica,Arial,Lucida Grande,sans-serif; 
+  font-weight:normal;
+  font-size: 16px; 
+  letter-spacing: 1pt; 
+  text-align: left;
+  color: #3a3a3a; 
+  position:relative; 
+  z-index:7; 
+  line-height: 150%;
+  margin-top: 0;
+}
+
+.img {
+  margin-bottom: 5%;
+}
+
+.wwd-img {
+  height: 50;
+  width: 50;
+  margin-top: 7%;
+}
+
+.wwd-header{
+  margin-top: 22%;
+  margin-bottom: 10%; 
+  font-family: Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;  
+  font-weight:normal; 
+  text-align: center;
+  font-size: 38px;
+}
+
+.what-we-do-sub-text{
+  color:#fff; 
+  font-size:20px; 
+  font-family:'Roboto', sans-serif; 
+  font-weight:normal;
+  padding-top: 2%;
+}
+
+.case-studies-headers{
+  font-family:'Roboto', sans-serif;
+  font-size:25px; 
+  color:#ffffff; 
+  margin-top: 15%;
+  margin-bottom: 10%; 
+  text-align: center;
+  line-height: 110%;
+}
+
+.case-studies-content{
+  margin-top: 0; 
+  text-align:left; 
+  font-family:'Roboto', sans-serif;
+  font-size:18px; 
+  color:#fff; 
+  letter-spacing:0.05em;
+  font-weight: lighter; 
+  margin-bottom: 10%; 
+}
+
+.img-circle {
+  height: 100;
+  width: 100;
+  margin-bottom: 10%;
+}
+
+.img-cs {
+  height: 100;
+  width: 100;
+  margin-bottom: 10%
+}
+
+.img-cs2 {
+  height: auto;
+  width: 100;
+  margin-bottom: 10%;
+}
+
+.our-partners-header{
+  font-family:'Roboto', sans-serif;
+  font-size:44px; 
+  color:#222222; 
+  margin-bottom: 10%; 
+  font-weight:normal;
+  text-align:center;
+}
+
+.nav-bar-img {
+  width: auto;
+  height: 31;
+}
+
+.add-padx{
+  padding-right: 0px;
+}
+
+
+h1 {
+  font-family:'Roboto', sans-serif;
+  font-size:35px; 
+  color:#ffffff; 
+  margin-bottom: 5%; 
+  font-weight: lighter;
+}
+
+  .carousel-inner > .item > img {
+    position: cover;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    top: 0%;
+    background-size: 100%;
+  }
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 995px) {
+
+  .carousel-inner > .item > img {
+    position: cover;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0%;
+    background-size: 100%;
+  }
+
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
+
+footer {
+  border-top: 1.5px solid gray;
+  height: 200px;
+  background-color: #fff;
+}
+
+
+.col-lg-3 .col-lg-4 .col-md-4 .col-sm-6 .col-xs-12 {
+  min-width: 300px;
+  max-height: 300px;
+}
